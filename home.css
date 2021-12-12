@@ -1,0 +1,112 @@
+body {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/background2.jpg') repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+.nav-link{
+    color: grey !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link.active {
+    background-color: white;   
+}
+
+a.navbar-brand{
+    margin-left: 10%
+}
+
+#AsooHero{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/background1.jpg');
+    height: 80vh;
+    background-size: cover;
+    padding-top: 8vh;
+    padding-bottom: 30vh;
+
+}
+#AsooHero h1{
+    text-transform: uppercase;
+    font-size: 100px;
+    color: white;
+}
+
+#AsooHero p{
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1;
+    color: white;
+    padding-left: 3px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    min-height: 110vh;
+    height: auto;
+}
+section h1{
+    color: white;
+}
+
+
+.ContactContent {
+    color: white;
+}
+
+.AboutContent{
+    color: white;
+}
+.text-myskills{
+    color: white;
+    font-size: 1.3em;
+}
+.GradesContent p{
+    color: white;
+
+}
+.EducationContent h1{
+    color: white;
+}
+#ExpIcons{
+    font-size: 2.8125rem;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: white;
+    display: inline-block;
+}
+.date{
+    color: white;
+}
+.info{
+    color: white;
+    text-align: center;
+}
+.HobbyList{
+    color: white;
+}
+.img-fluid{
+    width: 20%;
+    height: auto;
+
+}
+@media screen and (max-width: 992px) {
+    .img-fluid{
+        display: none;
+    }
+}
